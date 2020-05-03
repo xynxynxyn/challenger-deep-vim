@@ -317,7 +317,7 @@ call s:h("GitGutterChangeDelete",{"fg": s:red, "bg": s:bg_subtle})
 
 
 "nvim terminal colors
-let g:terminal_color_0 = s:bg_dark.gui
+let g:terminal_color_0 = s:bg_subtle.gui
 let g:terminal_color_1 = s:red.gui
 let g:terminal_color_2 = s:green.gui
 let g:terminal_color_3 = s:yellow.gui
@@ -325,7 +325,7 @@ let g:terminal_color_4 = s:blue.gui
 let g:terminal_color_5 = s:purple.gui
 let g:terminal_color_6 = s:cyan.gui
 let g:terminal_color_7 = s:clouds.gui
-let g:terminal_color_8 = s:bg_subtle.gui
+let g:terminal_color_8 = s:bg_dark.gui
 let g:terminal_color_9 = s:dark_red.gui
 let g:terminal_color_10 = s:dark_green.gui
 let g:terminal_color_11 = s:dark_yellow.gui
